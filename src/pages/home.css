@@ -1,0 +1,21 @@
+#stadium1, #stadium2{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin: auto;
+}
+.tilt{
+    position: absolute;
+    width: 40%;
+    left: 40%;
+    top: 30%;
+    margin: auto;
+    z-index: 10;
+    transform: rotate(180deg);
+}
+#hammer{
+    transition: transform 0.5s;
+}
+.tilt:hover #hammer{
+    transform: rotate(55deg);
+}
